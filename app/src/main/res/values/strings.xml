@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Meteo</string>
+    <string name="c">°C</string>
+</resources>
