@@ -7,11 +7,7 @@ public
 class InputStreamOperations {
 
 
-    /**
-     * @param in : buffer with the php result
-     * @param bufSize : size of the buffer
-     * @return : the string corresponding to the buffer
-     */
+
     public static String InputStreamToString ( InputStream in, int bufSize) {
         final StringBuilder out = new StringBuilder();
         final byte[] buffer = new byte[bufSize];
@@ -26,10 +22,7 @@ class InputStreamOperations {
         return out.toString();
     }
 
-    /**
-     * @param in : buffer with the php result
-     * @return : the string corresponding to the buffer
-     */
+
     public static String InputStreamToString (InputStream in) {
         // On appelle la methode precedente avec une taille de buffer par defaut
         return InputStreamToString(in, 1024);
