@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">Meteo</string>
     <string name="c">°C</string>
+    <string name="saisi">Saisi</string>
+    <string name="textview">TextView</string>
+    <string name="todo">TODO</string>
+    <string name="afficher_le_resultat">Afficher le resultat</string>
 </resources>
